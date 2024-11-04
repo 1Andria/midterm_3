@@ -1,0 +1,492 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* 1060 */
+/* 790 */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    
+}
+
+.main_container{
+    max-width: 1450px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 180px;
+    margin-bottom: 180px;
+    padding-left: 10px;
+    
+}
+.section_1{
+    max-width: 1275px;
+    max-height: 800px;   
+    display: flex;
+    position: relative;
+    
+}
+.N {
+    background: linear-gradient(to right, white 72%, black 28%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+.tablet_museum{
+    display: none;
+}
+
+.gallery{
+    color: var(--White, #ffffff);
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: "Big Shoulders Display";
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 189px;
+    left: 165px;
+}
+.lery{
+    color: black;
+}
+.museum_sec21{
+    display: none;
+}
+.tablet_gallery{
+    color: var(--Almost-Black, #151515);
+    font-family: "Big Shoulders Display";
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 65px;
+    text-transform: uppercase;
+    display: none;
+}
+.black{
+    width: 450px;
+    height: 800px;
+    background: var(--Almost-Black, #151515);
+    
+}
+.museum_photo{
+    max-width: 540px;
+    max-height: 800px;
+}
+.museum{
+    width: 100%;
+    height: 100%;
+}
+.text_button{
+    position: absolute;
+    right: 0px;
+    top: 190px;
+    display: flex;
+    flex-direction: column;
+    gap: 84px;
+
+    
+}
+.sec1_paragraph{
+    color: var(--Dark-Grey, #444);
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: Outfit;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    
+}
+.button{
+    display: flex;
+}
+.btn{
+    color: var(--White, #FFF);
+    font-family: "Big Shoulders Display";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 3.636px;
+    text-decoration: none;
+    padding-left: 32px;
+    padding-right: 35px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    background: var(--Almost-Black, #151515);
+    transition: 0.8s;
+}
+
+.btn_div1{
+    display: block;
+    
+}
+.btn_div2{
+    display: none;
+    
+}
+.button:hover{
+    .btn_div1{
+        display: none;
+    }
+    .btn_div2{
+        display: block;
+    }
+    .btn{
+        background: var(--Gold, #D5966C);
+    }
+
+}
+.section_2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.heading_photo{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    gap: 153px;    
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding-left: 10px;
+}
+.heading{
+    color: var(--Almost-Black, #151515);
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: "Big Shoulders Display";
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 60px;
+    text-transform: uppercase;
+}
+.sec2_paragraph{
+    color: var(--Dark-Grey, #444);
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: Outfit;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; 
+}
+.section2_head_photo{
+    max-width: 635px;
+    height: 400px;
+}
+.museum_sec2{
+    width: 100%;
+    height: 100%;
+}
+.section2_photos{
+    display: flex;
+    gap: 30px;
+    margin-top:30px ;
+}
+.museum3{
+    max-width: 635px;
+    height: 720px;
+}
+.museum3_1{
+    width: 100%;
+    height: 100%;
+}
+.museum4{
+    max-width: 445px;
+    height: 313px;
+}
+.museum4_1{
+    width: 100%;
+    height: 100%;
+}
+.museum5{
+    max-width: 445px;
+    height: 377px;
+    background: var(--Almost-Black, #151515);
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    justify-content: center;
+    padding-left: 48px;
+}
+.black_heading{
+    color: var(--White, #FFF);
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: "Big Shoulders Display";
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 60px; 
+    text-transform: uppercase; 
+}
+.black_paragraph{
+    color: var(--White, #FFF);
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: Outfit;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; 
+}
+.two_photo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+footer{
+    max-width: 100%;
+    height: 244px;
+    background: var(--Almost-Black, #151515);
+    display: flex;
+    justify-content: center;
+}
+.footer{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 140px;
+    padding-left: 10px;
+}
+.modern{
+    width: 159.572px;
+    height: 58px;
+    
+}
+.footer_paragraph{
+    color: var(--White, #FFF);
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: Outfit;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; 
+    padding-top: 20px;
+    
+}
+.social_medias{
+    display: flex;
+    gap: 20px;
+    margin-left: 90px;
+    padding-bottom: 35px;
+}
+.sm{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    
+}
+.sm:hover{
+    filter: brightness(50%) sepia(90%) saturate(300%) hue-rotate(-15deg);
+}
+
+@media (max-width:1060px) {
+    .black{
+        display: none;
+    }
+    .gallery{
+        display: none;
+    }
+    .tablet_gallery{
+        display: block;
+    }
+    .text_button{
+        gap: 60px;
+    }
+    .section2_head_photo{
+        max-width: 398px;
+        height: 400px;
+        
+    }
+    .heading{
+        color: var(--Almost-Black, #151515);
+        font-family: "Big Shoulders Display";
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 45px; 
+        text-transform: uppercase;
+    }
+    .sec2_paragraph{
+        color: var(--Dark-Grey, #444);
+        font-family: Outfit;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px; 
+    }
+    .museum4{
+        max-width: 385px;
+        height: 313px;
+        
+    }
+    .museum5{
+        max-width:385px;
+        height: 396px;
+        flex-shrink: 0;
+        gap: 24px;
+        margin-right: 1px;
+        padding-left:29px ;
+    }
+    .black_heading{
+        color: var(--White, #FFF);
+        font-family: "Big Shoulders Display";
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 45px; 
+        text-transform: uppercase;
+    }
+    .black_paragraph{
+        color: var(--White, #FFF);
+        font-family: Outfit;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px; 
+    }
+    .museum3{
+        max-width: 398px;
+        height: 720px;
+        
+    }
+    .footer{
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+        
+    }
+    .social_medias{
+        margin-left: 0px;
+    }
+    .heading_photo{
+        display: flex;
+        gap: 105px;
+    }
+    .main_container{
+        max-width: 788px;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media (max-width:790px) {
+    .main_container{
+        max-width: 375px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .section_1{
+        max-width: 365px;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+    }
+    .text_button{
+        gap: 32px;
+    }
+    .tablet_gallery{
+        color: var(--Almost-Black, #151515);
+        font-family: "Big Shoulders Display";
+        font-size: 60px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 55px; 
+        text-transform: uppercase;
+    }
+    .sec1_paragraph{
+        color: var(--Dark-Grey, #444);
+        font-family: Outfit;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px;
+    }
+    .museum_photo{
+        max-width: 365px;
+        max-height: 240px;
+        
+    }
+    .museum{
+        display: none; 
+    }
+    .tablet_museum{
+        display: block;
+        width: 100%;
+        height: 100%;
+        
+    }
+    .text_button{
+        position: static;
+        
+    }
+    .heading_photo{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: start;
+        gap: 25px;
+    }
+    .section2_head_photo{
+        max-width: 343px;
+        max-height: 320px;
+        
+        
+    }
+    .museum3{
+        max-width: 343px;
+        max-height: 480px;
+        
+    }
+    .museum4{
+        max-width: 343px;
+        max-height: 200px;
+    }
+    .museum5{
+        max-width: 343px;
+        max-height: 293px;
+        padding-left: 24px;
+       
+    }
+    .section2_photos{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+    .two_photo{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+    footer{
+        height: 335px;
+    }
+    .footer{
+        height: 336px;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        padding-top: 30px;
+        
+    }
+    .museum_sec2{
+        display: none;
+    }
+    .museum_sec21{
+        display: block;
+    }
+    
+}

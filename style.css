@@ -19,7 +19,6 @@
     flex-direction: column;
     gap: 180px;
     margin-bottom: 180px;
-    padding-left: 10px;
     
 }
 .section_1{
@@ -27,6 +26,7 @@
     max-height: 800px;   
     display: flex;
     position: relative;
+    
     
 }
 .N {
@@ -120,14 +120,18 @@
     padding-bottom: 24px;
     background: var(--Almost-Black, #151515);
     transition: 0.8s;
+    display: flex;
+    height: 72px;
 }
 
 .btn_div1{
     display: block;
+    height: 72px;
     
 }
 .btn_div2{
     display: none;
+    height: 72px;
     
 }
 .button:hover{

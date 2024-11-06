@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-/* 990 */
+/* 870 */
 *{
     box-sizing: border-box;
     margin: 0;
 }
 .map{
     max-width: 100%;
-    height:auto;
+    height: 685px;
     position: relative;
     margin: 0 auto;
     
@@ -15,6 +15,8 @@
 }
 .Bitmap{
     width: 100%;
+    height: 100%;
+    object-fit: cover;
     
 }
 .btn{
@@ -55,11 +57,6 @@
     .btn{
         background: var(--Gold, #D5966C);
     }
-}
-.Bitmap{
-    width: 100%;
-    height: auto;
-    object-fit: contain;
 }
 .black{
     width: 100%;
@@ -136,7 +133,6 @@ footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
     padding-left: 10px;
 }
 .modern{
@@ -151,13 +147,130 @@ footer{
     font-style: normal;
     font-weight: 400;
     line-height: 28px; 
+    margin-top: 20px;
 }
 .sm{
     filter: brightness(0%) ;
     width: 20px;
     height: 20px;
     margin-right: 10px;
+    margin-bottom: 30px;
 }
 .sm:hover{
     filter: brightness(100%);
+}
+
+@media (max-width:900px) {
+    .heading{
+        color: var(--White, #FFF);
+        font-family: "Big Shoulders Display";
+        font-size: 55px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 50px;
+        text-transform: uppercase;
+    }
+    .house{
+        color: var(--Gold, #D5966C);
+        font-family: "Big Shoulders Display";
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 32px;
+        text-transform: uppercase;
+    }
+    .address{
+        color: var(--White, #FFF);
+        font-family: Outfit;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px; 
+    }
+    .info{
+        color: var(--White, #FFF);
+        font-family: Outfit;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px; 
+    }
+    .footer_paragraph{
+        color: var(--Almost-Black, #151515);
+        font-family: Outfit;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px; 
+    
+    }
+    .modern{
+        max-width: 110.05px;
+        height: 40px;
+        
+    }
+    .button{
+        left: 50px;
+    }
+}
+@media (max-width:700px){
+    .button{
+        left: 0px;
+    }
+    .heading{
+        color: var(--White, #FFF);
+        font-family: "Big Shoulders Display";
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 45px;
+        text-transform: uppercase;
+    }
+    .house{
+        color: var(--Gold, #D5966C);
+        font-family: "Big Shoulders Display";
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 32px;
+        text-transform: uppercase;
+    }
+    .address{
+        color: var(--White, #FFF);
+        font-family: Outfit;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px; 
+    }
+    .info{
+        color: var(--White, #FFF);
+        font-family: Outfit;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px; 
+    }
+    .black{
+        padding-top: 0px;
+    }
+    .text{
+        margin-left: 10px;
+    }
+    .Information{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+        
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        height: 336px;
+        padding-top: 48px;
+        padding-left: 32px;
+        align-items: start;
+    }
 }
